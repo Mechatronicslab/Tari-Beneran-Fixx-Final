@@ -1,4 +1,5 @@
 ﻿using design_dance.admin.model_tari;
+using design_dance.admin.rekam_tari;
 using System;
 using System.Threading;
 using System.Windows.Forms;
@@ -55,7 +56,9 @@ namespace design_dance
 
         private void b_rekam_Click(object sender, EventArgs e)
         {
-
+            f_rekam_tari sin = new f_rekam_tari();
+            sin.Show();
+            this.Visible = false;
         }
 
         private void b_model_Click(object sender, EventArgs e)

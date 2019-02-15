@@ -127,6 +127,12 @@
     <Compile Include="admin\model_tari\f_Tari.Designer.cs">
       <DependentUpon>f_Tari.cs</DependentUpon>
     </Compile>
+    <Compile Include="admin\rekam_tari\f_rekam_tari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\rekam_tari\f_rekam_tari.Designer.cs">
+      <DependentUpon>f_rekam_tari.cs</DependentUpon>
+    </Compile>
     <Compile Include="f_mainUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="admin\model_tari\f_Tari.resx">
       <DependentUpon>f_Tari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\rekam_tari\f_rekam_tari.resx">
+      <DependentUpon>f_rekam_tari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="f_mainUser.resx">
       <DependentUpon>f_mainUser.cs</DependentUpon>
@@ -235,6 +244,10 @@
     <None Include="Resources\ic_siger.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TariStream\TariStream.csproj">
+      <Project>{A0EA9CED-728A-45BE-BDA5-2EB39AB9D046}</Project>
+      <Name>TariStream</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WpfControlLibrary1\wpfModelTari.csproj">
       <Project>{717E1FCA-4F5B-4714-A302-C69F6A120004}</Project>
       <Name>wpfModelTari</Name>
