@@ -1,5 +1,6 @@
 ﻿using design_dance.admin.model_tari;
 using System;
+using System.Threading;
 using System.Windows.Forms;
 namespace design_dance
 {
@@ -9,12 +10,21 @@ namespace design_dance
 
         public f_mainAdmin()
         {
+            Thread t = new Thread(new ThreadStart(StartForm));
+            t.Start();
+            Thread.Sleep(5000);
             InitializeComponent();
+            t.Abort();
         }
 
         public f_mainAdmin(f_signin f_signin)
         {
             this.f_signin = f_signin;
+        }
+
+        public void StartForm()
+        {
+            Application.Run(new LoadingForm());
         }
 
         private void b_regist_Click(object sender, EventArgs e)

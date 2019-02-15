@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -20,7 +21,16 @@ namespace design_dance
 
         public f_mainUser()
         {
+            Thread t = new Thread(new ThreadStart(StartForm));
+            t.Start();
+            Thread.Sleep(5000);
             InitializeComponent();
+            t.Abort();
+        }
+
+        public void StartForm()
+        {
+            Application.Run(new LoadingForm());
         }
 
         private void b_exit_Click(object sender, EventArgs e)

@@ -19,14 +19,13 @@ namespace design_dance
         static string ProductionUri = "mongodb://maria:maria123@167.205.7.226:27017/kinect";
         public IMongoDatabase db;
         public IMongoClient client;
+
         public f_signin()
         {
-            InitializeComponent();
-           
+            InitializeComponent();           
             Connect();
         }
        
-
         private void b_exit_Click(object sender, EventArgs e)
         {
             if (System.Windows.Forms.Application.MessageLoop)
@@ -60,7 +59,7 @@ namespace design_dance
         {
             client = new MongoClient(ProductionUri);
             db = client.GetDatabase("kinect");
-            bool isMongoLive = db.RunCommandAsync((Command<BsonDocument>)"{ping:1}").Wait(1000);
+            /*bool isMongoLive = db.RunCommandAsync((Command<BsonDocument>)"{ping:1}").Wait(1000);
             if (isMongoLive)
             {
                 // connected
@@ -71,7 +70,7 @@ namespace design_dance
                 // couldn't connect
                 MessageBox.Show("Koneksi Bermasalah atau Server Mengalami Gangguan !! ");
                 Environment.Exit(0);
-            }
+            }*/
         }
 
         public void signIn(string username, string password)
