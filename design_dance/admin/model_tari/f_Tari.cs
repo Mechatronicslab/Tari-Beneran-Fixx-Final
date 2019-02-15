@@ -16,17 +16,7 @@ namespace design_dance.admin.model_tari
         public f_Tari()
         {
             InitializeComponent();           
-        }
-
-        private void elementHost1_ChildChanged(object sender, System.Windows.Forms.Integration.ChildChangedEventArgs e)
-        {
-
-        }
-
-        private void elementHost2_ChildChanged(object sender, System.Windows.Forms.Integration.ChildChangedEventArgs e)
-        {
-
-        }
+        }        
 
         private void b_exit_Click(object sender, EventArgs e)
         {
@@ -38,6 +28,21 @@ namespace design_dance.admin.model_tari
             {
                 System.Environment.Exit(1);
             }
+        }
+
+        private void b_logout_Click(object sender, EventArgs e)
+        {
+            f_signin sin = new f_signin();
+            sin.Show();
+            this.Visible = false;
+            pi_videoM.Ctlcontrols.stop();
+        }
+
+        private void b_back_Click(object sender, EventArgs e)
+        {
+            f_mainAdmin admin = new f_mainAdmin();
+            admin.Show();
+            this.Visible = false;            
         }
     }
 }
