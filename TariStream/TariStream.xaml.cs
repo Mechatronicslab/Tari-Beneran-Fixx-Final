@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows;
+using System.Drawing;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -17,8 +18,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Accord.Statistics.Models.Markov;
-using Accord.Statistics.Models.Markov.Topology;
 
+using System.Threading.Tasks;
+using System.Drawing.Imaging;
 namespace TariStream
 {
     /// <summary>
@@ -56,11 +58,26 @@ namespace TariStream
         myClassifier myGestureHMC;
         myClassifier myPhraseHMC;
         Stopwatch SW = new Stopwatch();
+  
+        ColorFrameReader cfr;
+        byte[] colorData;
+        ColorImageFormat format;
+        WriteableBitmap wbmp;
+        BitmapSource img;
+        int imageSerial;
+        bool recordStarted;
 
         public UserControl1()
         {
             InitializeComponent();
             gestures = new List<int>();
+            recordStarted = false;
+            System.IO.DirectoryInfo directory = new DirectoryInfo("./img/");
+            foreach (FileInfo file in directory.GetFiles())
+            {
+                file.Delete();
+            }
+
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -70,9 +87,22 @@ namespace TariStream
             if (_sensor != null)
             {
                 _sensor.Open();
-
-                _reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared | FrameSourceTypes.Body);
+                
+                _reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared | FrameSourceTypes.Body );
+                var fd = _sensor.ColorFrameSource.CreateFrameDescription(ColorImageFormat.Bgra);
+                uint frameSize = fd.BytesPerPixel * fd.LengthInPixels;
+                colorData = new byte[frameSize];
+                format = ColorImageFormat.Bgra;
+                //cfr = _sensor.ColorFrameSource.OpenReader();
+  
                 _reader.MultiSourceFrameArrived += Reader_MultiSourceFrameArrived;
+        
+
+                // Deleting all previous image in ./img directory
+               
+
+
+                
             }
         }
 
@@ -89,23 +119,39 @@ namespace TariStream
             }
         }
 
+
+
         void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
+
             var reference = e.FrameReference.AcquireFrame();
 
             // Color
             using (var frame = reference.ColorFrameReference.AcquireFrame())
             {
+                
+                //camera.Source = wbmp;
                 if (frame != null)
                 {
                     if (_mode == Mode.Color)
                     {
+                        
                         double height = frame.ToBitmap().Height;
                         double width = frame.ToBitmap().Width;
                         var trf = new ScaleTransform(canvas.ActualWidth / width, canvas.ActualHeight / height);
-                        var img = (BitmapSource)frame.ToBitmap();
+                        img = (BitmapSource)frame.ToBitmap();
                         var imgSource = new TransformedBitmap(img, trf);
                         camera.Source = imgSource;
+                        /*frame.CopyConvertedFrameDataToArray(colorData, format);
+                        var fd = frame.FrameDescription;
+                        var bytesPerPixel = (PixelFormats.Bgr32.BitsPerPixel) / 8;
+                        var stride = bytesPerPixel * frame.FrameDescription.Width;
+
+                        bmpSource = BitmapSource.Create(fd.Width, fd.Height, 96.0, 96.0, PixelFormats.Bgr32, null, colorData, stride);
+                        wbmp = new WriteableBitmap(bmpSource);
+                        camera.Source = wbmp;*/
+
+                     
                     }
                 }
             }
@@ -129,6 +175,12 @@ namespace TariStream
                 {
                     if (_mode == Mode.Infrared)
                     {
+                        double height = frame.ToBitmap().Height;
+                        double width = frame.ToBitmap().Width;
+                        var trf = new ScaleTransform(canvas.ActualWidth / width, canvas.ActualHeight / height);
+                        img = (BitmapSource)frame.ToBitmap();
+                        var imgSource = new TransformedBitmap(img, trf);
+                        camera.Source = imgSource;
                         camera.Source = frame.ToBitmap();
                     }
                 }
@@ -144,7 +196,7 @@ namespace TariStream
                     _bodies = new Body[frame.BodyFrameSource.BodyCount];
 
                     frame.GetAndRefreshBodyData(_bodies);
-
+                    
                     B_COUNT = 0;
                     bool allBodynull = true;
                     foreach (var body in _bodies)
@@ -154,6 +206,7 @@ namespace TariStream
                             allBodynull = false;
                             if (body.IsTracked)
                             {
+
                                 if (prevData == "0")
                                 {
                                     time0 = reference.BodyFrameReference.RelativeTime;
@@ -162,6 +215,19 @@ namespace TariStream
                                 SW.Start();
                                 prevData = Harvester.Harvest(rtime, body);
                                 B_COUNT++;
+                                /*if (recordStarted)
+                                {
+                                    // JpegBitmapEncoder to save BitmapSource to file
+                                    // imageSerial is the serial of the sequential image
+                                    JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+                                    encoder.Frames.Add(BitmapFrame.Create(img));
+                                    using (var fs = new FileStream("./img/" + (imageSerial++) + ".jpeg", FileMode.Create, FileAccess.Write))
+                                    {
+                                        encoder.Save(fs);
+                                    }
+                                }*/
+
+                                //camera.Source = wbmp;
                                 // Draw skeleton.
                                 if (_displayBody)
                                 {
@@ -182,15 +248,22 @@ namespace TariStream
                                         B_state = parser.parsefromKinectRow(Harvester, "HIERARCHIC");
                                         answer = 9 * B_state[0] + 3 * B_state[1] + B_state[2];
                                         Output_Label.Content = String.Join(" ", parser.observedStates, answer);
-                                    }
+                                                                            }
                                     else if (_logMode == LogMode.CSV)
                                     {
                                         //SW.Start();
                                         prevData = CSV_Extractor(body) + (rtime.TotalMilliseconds / 1000).ToString();
                                         Path = Directory.GetCurrentDirectory() + "\\CSV\\" + sFilename.Text + ".csv";
                                         Write2Base(Path, prevData);
+                                        JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+                                        encoder.Frames.Add(BitmapFrame.Create(img));
+                                        using (var fs = new FileStream("./img/" + (imageSerial++) + ".jpeg", FileMode.Create, FileAccess.Write))
+                                        {
+                                            encoder.Save(fs);
+                                        }
                                         SW.Stop();
                                         Console.WriteLine(SW.ElapsedMilliseconds.ToString());
+                                        
                                         //SW.Reset();
                                     }
                                 }
@@ -366,9 +439,27 @@ namespace TariStream
             */
             prevData = "0";
             if (_takeRecord)
-                S_Button.Content = "Cut!";
+            {
+                System.IO.DirectoryInfo directory = new DirectoryInfo("./img/");
+                foreach (FileInfo file in directory.GetFiles())
+                {
+                    file.Delete();
+                }
+                S_Button.Content = "Cut!!";
+                imageSerial = 0;
+                recordStarted = true;
+                
+
+            }
             else
-                S_Button.Content = "Take";
+            {
+                S_Button.Content = "Take!!";
+                recordStarted = false;
+                Process.Start("ffmpeg.exe", "-framerate 10 -i ./img/%d.jpeg -c:v libx264 -r 30 -pix_fmt yuv420p kinect_video.mp4");
+                
+
+            }
+
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
