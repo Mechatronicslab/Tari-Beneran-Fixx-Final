@@ -7,20 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using f_userCam = f_userCamera;
 
 namespace design_dance
 {
     public partial class f_userAct : Form
-    {
+    {        
 
-        private f_mainUser parent;
-        private string url;
+        private f_mainUser parent;        
+        private string url;        
 
         public f_userAct(f_mainUser parent, string url)
         {
             InitializeComponent();
-            this.parent = parent;
-            this.url = url;            
+            this.parent = parent;            
+            this.url = url;         
         }        
 
         private void b_back_Click(object sender, EventArgs e)
@@ -28,7 +29,8 @@ namespace design_dance
             f_mainUser user = new f_mainUser();
             user.Show();
             this.Visible = false;
-            pi_videoM.Ctlcontrols.stop();
+            f_userCam.UserControl1 back = e_videoCamera.Child as f_userCam.UserControl1;
+            back.stopVideo();
         }
 
         private void b_logout_Click(object sender, EventArgs e)
@@ -36,7 +38,6 @@ namespace design_dance
             f_signin sin = new f_signin();
             sin.Show();
             this.Visible = false;
-            pi_videoM.Ctlcontrols.stop();
         }
 
         private void b_exit_Click(object sender, EventArgs e)
@@ -49,13 +50,6 @@ namespace design_dance
             {
                 System.Environment.Exit(1);
             }
-        }        
-
-        private void b_play_Click(object sender, EventArgs e)
-        {            
-            pi_videoM.URL = "" + url;
-            pi_videoM.uiMode = "None";
-            b_play.Visible = false;
-        }
+        }                       
     }
 }

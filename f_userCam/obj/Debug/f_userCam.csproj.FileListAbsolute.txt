@@ -1,0 +1,13 @@
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\bin\Debug\f_userCam.exe.config
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\bin\Debug\f_userCam.exe
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\bin\Debug\f_userCam.pdb
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\MainWindow.g.cs
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\App.g.cs
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\f_userCam_MarkupCompile.cache
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\f_userCam_MarkupCompile.lref
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\MainWindow.baml
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\f_userCam.g.resources
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\f_userCam.Properties.Resources.resources
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\f_userCam.csproj.GenerateResource.Cache
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\f_userCam.exe
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\f_userCam\obj\Debug\f_userCam.pdb

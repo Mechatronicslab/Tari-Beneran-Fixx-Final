@@ -71,4 +71,3 @@ C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\wpfModelTari.csproj.GenerateResource.Cache
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.pdb
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\wpfModelTari.csprojResolveAssemblyReference.cache

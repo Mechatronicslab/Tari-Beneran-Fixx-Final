@@ -72,6 +72,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\DirectX_VideoPlayer_DLL\Microsoft.DirectX.AudioVideoPlayback.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Kinect, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Kinect.2.0.1410.19000\lib\net45\Microsoft.Kinect.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MongoDB.Bson, Version=2.7.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MongoDB.Bson.2.7.3\lib\net45\MongoDB.Bson.dll</HintPath>
       <Private>True</Private>
@@ -100,6 +104,7 @@
       <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -235,6 +240,10 @@
     <None Include="Resources\ic_siger.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\f_userCamera\f_userCamera.csproj">
+      <Project>{38269156-6CF6-4F6A-AA66-97141FB97183}</Project>
+      <Name>f_userCamera</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WpfControlLibrary1\wpfModelTari.csproj">
       <Project>{717E1FCA-4F5B-4714-A302-C69F6A120004}</Project>
       <Name>wpfModelTari</Name>

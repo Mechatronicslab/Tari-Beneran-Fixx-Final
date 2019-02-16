@@ -80,9 +80,9 @@
             this.b_logout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.b_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_logout.Location = new System.Drawing.Point(900, 0);
+            this.b_logout.Location = new System.Drawing.Point(890, 0);
             this.b_logout.Name = "b_logout";
-            this.b_logout.Size = new System.Drawing.Size(54, 41);
+            this.b_logout.Size = new System.Drawing.Size(64, 41);
             this.b_logout.TabIndex = 31;
             this.b_logout.Text = "Logout";
             this.b_logout.UseVisualStyleBackColor = false;
