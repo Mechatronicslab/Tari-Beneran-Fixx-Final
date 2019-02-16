@@ -1,40 +1,3 @@
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.pdb
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\DnsClient.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Bson.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.Core.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\System.Buffers.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\DnsClient.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Bson.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.Core.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\ModelTari.g.cs
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.cache
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.lref
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\ModelTari.baml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.g.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.Properties.Resources.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\wpfModelTari.csproj.GenerateResource.Cache
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.pdb
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MetroFramework.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MetroFramework.Fonts.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.dll.config
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.GPL.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.Core.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Statistics.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.GPL.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.Core.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Statistics.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\wpfModelTari.csprojResolveAssemblyReference.cache
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\bin\Debug\Accord.dll.config
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.pdb
@@ -71,3 +34,40 @@ C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\wpfModelTari.csproj.GenerateResource.Cache
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.pdb
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\WpfControlLibrary1\obj\Debug\wpfModelTari.csprojResolveAssemblyReference.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.dll.config
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.pdb
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.GPL.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.Core.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Statistics.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\DnsClient.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MetroFramework.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MetroFramework.Fonts.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Bson.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.Core.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\System.Buffers.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.MachineLearning.GPL.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Math.Core.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\Accord.Statistics.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\DnsClient.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Bson.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\bin\Debug\MongoDB.Driver.Core.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\ModelTari.g.cs
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1_MarkupCompile.lref
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\ModelTari.baml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.g.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.Properties.Resources.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\wpfModelTari.csproj.GenerateResource.Cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.pdb

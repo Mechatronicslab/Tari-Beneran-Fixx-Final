@@ -4,8 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfControlLibrary1"
-             mc:Ignorable="d" 
-             d:DesignHeight="600" Width="1000">
+             mc:Ignorable="d">
 
     <Grid Width="1000" Height="600">
 

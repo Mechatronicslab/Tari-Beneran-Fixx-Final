@@ -44,63 +44,18 @@ C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csp
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\Interop.WMPLib.dll
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\gakga\Downloads\Project\Tari-V2\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\design_dance.exe.config
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\design_dance.exe
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\design_dance.pdb
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\DnsClient.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Bson.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Core.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Legacy.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\System.Buffers.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\WpfControlLibrary1.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\WpfControlLibrary1.pdb
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\DnsClient.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Bson.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Core.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Legacy.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Interop.WMPLib.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\AxInterop.WMPLib.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\Interop.WMPLib.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\AxInterop.WMPLib.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.csproj.ResolveComReference.cache
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_mainAdmin.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.admin.model_tari.f_Tari.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_mainUser.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_signin.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_signup.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_userAct.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.Properties.Resources.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.csproj.GenerateResource.Cache
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.exe
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.pdb
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.LoadingForm.resources
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MetroFramework.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MetroFramework.Fonts.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.dll.config
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Statistics.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.Core.dll
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Statistics.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.xml
-G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.Core.xml
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.dll.config
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\design_dance.exe.config
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\design_dance.exe
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\design_dance.pdb
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\Interop.WMPLib.dll
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.csproj.ResolveComReference.cache
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.exe
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.pdb
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\DnsClient.dll
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\f_userCamera.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MetroFramework.Design.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MetroFramework.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Microsoft.DirectX.dll
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Microsoft.Kinect.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MongoDB.Bson.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MongoDB.Driver.Core.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MongoDB.Driver.dll
@@ -112,10 +67,8 @@ C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.Math.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.Math.Core.dll
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\f_userCamera.pdb
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\WpfControlLibrary1.pdb
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\DnsClient.xml
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Microsoft.Kinect.xml
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MongoDB.Bson.xml
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MongoDB.Driver.xml
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\MongoDB.Driver.Core.xml
@@ -124,12 +77,7 @@ C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.Math.xml
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.xml
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.Math.Core.xml
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Interop.WMPLib.dll
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\Interop.WMPLib.dll
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.csproj.ResolveComReference.cache
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.f_mainAdmin.resources
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.admin.model_tari.f_Tari.resources
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.f_mainUser.resources
@@ -139,5 +87,59 @@ C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.LoadingForm.resources
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.Properties.Resources.resources
 C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.csproj.GenerateResource.Cache
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.exe
-C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\obj\Debug\design_dance.pdb
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Accord.dll.config
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\design_dance.exe
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\design_dance.pdb
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\Interop.WMPLib.dll
+C:\Users\gakga\Downloads\Project\Tari-Beneran-Fixx-Final\design_dance\bin\Debug\AxInterop.WMPLib.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.dll.config
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\design_dance.exe.config
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\design_dance.exe
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\design_dance.pdb
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\DnsClient.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MetroFramework.Design.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MetroFramework.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MetroFramework.Fonts.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Bson.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Core.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Legacy.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\System.Buffers.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\TariStream.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\WpfControlLibrary1.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Microsoft.Kinect.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Statistics.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.Core.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\TariStream.pdb
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\WpfControlLibrary1.pdb
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\DnsClient.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Bson.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Core.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\MongoDB.Driver.Legacy.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Microsoft.Kinect.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Statistics.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Accord.Math.Core.xml
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\Interop.WMPLib.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\bin\Debug\AxInterop.WMPLib.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.csprojResolveAssemblyReference.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\Interop.WMPLib.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\AxInterop.WMPLib.dll
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.csproj.ResolveComReference.cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_mainAdmin.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.admin.model_tari.f_Tari.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.admin.rekam_tari.f_rekam_tari.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_mainUser.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_signin.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_signup.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.f_userAct.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.LoadingForm.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.Properties.Resources.resources
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.csproj.GenerateResource.Cache
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.exe
+G:\kuliah\project\PPTIK ITB\Kinnect\Tari V2\design_dance\design_dance\obj\Debug\design_dance.pdb

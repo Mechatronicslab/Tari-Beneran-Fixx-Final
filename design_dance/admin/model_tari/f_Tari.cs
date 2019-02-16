@@ -34,7 +34,8 @@ namespace design_dance.admin.model_tari
         {
             f_signin sin = new f_signin();
             sin.Show();
-            this.Visible = false;            
+            this.Visible = false;
+            
         }
 
         private void b_back_Click(object sender, EventArgs e)
