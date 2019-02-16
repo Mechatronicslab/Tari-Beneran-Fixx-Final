@@ -49,7 +49,7 @@
             this.p_head.Dock = System.Windows.Forms.DockStyle.Top;
             this.p_head.Location = new System.Drawing.Point(0, 0);
             this.p_head.Name = "p_head";
-            this.p_head.Size = new System.Drawing.Size(1360, 41);
+            this.p_head.Size = new System.Drawing.Size(1560, 41);
             this.p_head.TabIndex = 0;
             // 
             // b_back
@@ -80,9 +80,9 @@
             this.b_logout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.b_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
-            this.b_logout.Location = new System.Drawing.Point(1260, 0);
+            this.b_logout.Location = new System.Drawing.Point(1438, 0);
             this.b_logout.Name = "b_logout";
-            this.b_logout.Size = new System.Drawing.Size(54, 41);
+            this.b_logout.Size = new System.Drawing.Size(76, 41);
             this.b_logout.TabIndex = 31;
             this.b_logout.Text = "Logout";
             this.b_logout.UseVisualStyleBackColor = false;
@@ -99,7 +99,7 @@
             this.b_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(83)))), ((int)(((byte)(155)))));
             this.b_exit.Image = ((System.Drawing.Image)(resources.GetObject("b_exit.Image")));
-            this.b_exit.Location = new System.Drawing.Point(1314, 0);
+            this.b_exit.Location = new System.Drawing.Point(1514, 0);
             this.b_exit.Margin = new System.Windows.Forms.Padding(4);
             this.b_exit.Name = "b_exit";
             this.b_exit.Size = new System.Drawing.Size(46, 41);
@@ -114,7 +114,7 @@
             this.p_body.Dock = System.Windows.Forms.DockStyle.Fill;
             this.p_body.Location = new System.Drawing.Point(0, 41);
             this.p_body.Name = "p_body";
-            this.p_body.Size = new System.Drawing.Size(1360, 859);
+            this.p_body.Size = new System.Drawing.Size(1560, 934);
             this.p_body.TabIndex = 1;
             // 
             // e_data
@@ -122,15 +122,15 @@
             this.e_data.Dock = System.Windows.Forms.DockStyle.Fill;
             this.e_data.Location = new System.Drawing.Point(0, 0);
             this.e_data.Name = "e_data";
-            this.e_data.Size = new System.Drawing.Size(1360, 859);
+            this.e_data.Size = new System.Drawing.Size(1560, 934);
             this.e_data.TabIndex = 0;
-            this.e_data.Text = "e_data";
+            this.e_data.Text = "elementHost1";
             this.e_data.Child = this.userControl11;
             // 
             // f_Tari
             // 
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1360, 900);
+            this.ClientSize = new System.Drawing.Size(1560, 975);
             this.Controls.Add(this.p_body);
             this.Controls.Add(this.p_head);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -149,9 +149,9 @@
         private System.Windows.Forms.Panel p_head;
         private System.Windows.Forms.Button b_exit;
         private System.Windows.Forms.Panel p_body;
-        private System.Windows.Forms.Integration.ElementHost e_data;
-        private WpfControlLibrary1.UserControl1 userControl11;
         private System.Windows.Forms.Button b_logout;
         private System.Windows.Forms.Button b_back;
+        private System.Windows.Forms.Integration.ElementHost e_data;
+        private WpfControlLibrary1.UserControl1 userControl11;
     }
 }

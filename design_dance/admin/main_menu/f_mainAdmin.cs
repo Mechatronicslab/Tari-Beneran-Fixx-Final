@@ -22,7 +22,7 @@ namespace design_dance
         {
             this.f_signin = f_signin;
         }
-
+        
         public void StartForm()
         {
             Application.Run(new LoadingForm());
